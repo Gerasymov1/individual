@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato";
+}
+
+.section-clothes-title {
+  font-size: 36px;
+  margin: 0;
+  padding-top: 48px;
+  text-align: center;
+}
+
+.clothes-image {
+  width: 210px;
+  height: 253px;
+  border: 1px solid lightgrey;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 76px;
+  text-align: center;
+  padding-bottom: 46px;
+  border-bottom: 1px solid lightgray;
+}
+
+.card-info-title {
+  margin-bottom: 0;
+}
+
+.card-info-price {
+  margin-top: 6px;
+}
+
+.pt-clothes-title {
+  padding-top: 75px;
+}
+
+.check-look {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  margin: 0;
+  color: #686868;
+  padding-top: 50px;
+  font-size: 24px;
+  padding-bottom: 50px;
+}
+
+#basket-count {
+  display: inline-block;
+  margin: 0;
+  width: 10px;
+}
+
+.img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img1 {
+  background-image: url(../img/category1.jpg);
+}
+
+.img2 {
+  background-image: url(../img/category2.jpg);
+}
+
+.img3 {
+  background-image: url(../img/category3.jpg);
+}
+
+.img4 {
+  background-image: url(../img/category4.jpg);
+}
+
+@media screen and (max-width: 1024px) {
+  .clothes-image {
+    width: 170px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slider,
+  .check {
+    display: none;
+  }
+
+  .clothes-image {
+    width: 222px;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 70px;
+  }
+
+  .card-link1 {
+    margin: 0 20px;
+  }
+
+  .category__item-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .col-title {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .category__item-wrapper {
+    width: 100%;
+  }
+}

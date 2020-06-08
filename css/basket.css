@@ -1,0 +1,281 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato";
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-size: 14px;
+  padding: 15px 0;
+  border-bottom: 1px solid grey;
+  color: #686868;
+}
+
+.basket-parameters,
+.basket-delete {
+  display: flex;
+  flex-direction: row;
+}
+
+.basket-product {
+  width: 100%;
+  max-width: 130px;
+}
+
+.basket-descr {
+  width: 100%;
+  max-width: 530px;
+}
+
+.basket-color {
+  width: 100%;
+  max-width: 155px;
+}
+
+.basket-parameters {
+  width: 100%;
+  max-width: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.basket-delete {
+  width: 100%;
+  max-width: 220px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+
+.basket-product-image {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+}
+
+.basket-info-container {
+  width: 100%;
+  display: flex;
+}
+
+.basket-descr-title,
+.basket-descr-text {
+  margin: 0;
+}
+
+.basket-card-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.basket-descr-title {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.basket-descr-text {
+  font-size: 10px;
+}
+
+.basket-card-center-1 {
+  align-items: center;
+}
+
+.input-number {
+  width: 30px;
+  border: none;
+}
+
+#basket-count {
+  display: inline-block;
+  margin: 0;
+  width: 10px;
+}
+
+.basket-title,
+.basket-text {
+  margin: 0;
+  text-align: center;
+}
+
+.basket-title {
+  padding-top: 50px;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.basket-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 18px;
+  padding-bottom: 80px;
+}
+
+#mdiv {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.mdiv {
+  height: 15px;
+  width: 2px;
+  margin-left: 5px;
+  background-color: black;
+  transform: rotate(45deg);
+  z-index: 1;
+}
+
+.md {
+  height: 15px;
+  width: 2px;
+  background-color: black;
+  transform: rotate(90deg);
+  z-index: 2;
+}
+
+.basket-sum-container {
+  background-color: #f9f9f9;
+  text-align: end;
+  font-size: 14px;
+  padding-right: 135px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.sum-span-price {
+  color: #f68236;
+  font-weight: 700;
+  margin-left: 55px;
+}
+
+.basket-order-container a {
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.basket-order-container {
+  text-align: end;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid lightgray;
+}
+
+.order-button {
+  width: 200px;
+  height: 55px;
+  background-color: #f68236;
+  color: #fff;
+  border: 1px solid #f68236;
+  font-size: 16px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+
+.order-link {
+  width: 200px;
+  height: 55px;
+}
+
+@media screen and (max-width: 1024px) {
+  .basket-descr {
+    min-width: 380px;
+  }
+
+  .basket-delete {
+    max-width: 150px;
+  }
+
+  .sum-span-price {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .basket-info-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .basket-sum-container {
+    padding-right: 0;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .bt {
+    border-top: 1px solid grey;
+  }
+
+  .basket-parameters {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .basket-text {
+    padding-bottom: 55px;
+  }
+
+  .basket-delete {
+    display: flex;
+    flex-direction: column-reverse;
+    height: inherit;
+    justify-content: space-between;
+  }
+
+  .basket-product-image {
+    margin-bottom: 20px;
+  }
+
+  .sum-span-price {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .order-button {
+    margin-left: 0;
+    width: 400px;
+    height: 60px;
+    margin-bottom: 30px;
+  }
+
+  .basket-order-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+  }
+
+  .history-text {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .order-button {
+    width: 300px;
+  }
+
+  .basket-info-container {
+    max-width: 170px;
+  }
+
+  .basket-delete {
+    margin: 0;
+  }
+
+  .basket-product-image {
+    margin-right: 10px;
+  }
+}

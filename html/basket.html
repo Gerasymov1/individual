@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/slyles.css" />
+    <link rel="stylesheet" href="../css/basket.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="header-navigation ">
+            <div class="header-logo-container ">
+              <a href="../html/home.html" class="header-logo">SH</a>
+            </div>
+
+            <nav class="header-nav">
+              <ul class="menu">
+                  <li class="menu_item">
+                      <a href="../html/category-all.html">Woman</a>
+                    </li>
+                    <li class="menu_item">
+                      <a href="../html/category-all.html">Men</a>
+                    </li>
+                    <li class="menu_item">
+                      <a href="../html/category-all.html">Kids</a>
+                    </li>
+                    <li class="menu_item">
+                      <a href="../html/category-all.html">Coming Soon</a>
+                    </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="header-search" id="header-search">
+              <div class="button-container" id="button-container">
+                <input
+                  type="text"
+                  class="header-input-disabled "
+                  placeholder="Search something..."
+                  id="input"
+                />
+                <button class="header-button" id="button">
+                  <img
+                    src="../img/Magnifying Glass. Attribute as Freepik from Flaticon.com.png"
+                    alt=""
+                  />
+                </button>
+              </div>
+              <img
+                src="../img/Ellipse 3.png"
+                alt=""
+                class="basket-img"
+                id="basket-element"
+              />
+              <a href="../html/basket.html" class="basket" >Basket(<div id="basket-count">3</div>)</a>
+            </div>
+          </div>
+          <div id="header-mobile-search"></div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <nav class="header-nav hidden active ">
+        <ul class="menu menu-mobile">
+            <li class="menu_item">
+                <a href="../html/category-all.html">Woman</a>
+              </li>
+              <li class="menu_item">
+                <a href="../html/category-all.html">Men</a>
+              </li>
+              <li class="menu_item">
+                <a href="../html/category-all.html">Kids</a>
+              </li>
+              <li class="menu_item">
+                <a href="../html/category-all.html">Coming Soon</a>
+              </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="history">
+      <div class="container">
+        <p class="history-text">HOME / MAN / SHOES / FLORAL PLIMSOLL</p>
+      </div>
+    </div>
+
+    <section class="section-basket-title">
+      <div class="container">
+        <h1 class="basket-title">YOUR SHOPPING BAG</h1>
+        <p class="basket-text">Items reserved for limited time only</p>
+      </div>
+    </section>
+
+    <section class="section-basket">
+      <div class="container">
+        <div class="flex-container none">
+          <div class="basket-product">PRODUCT</div>
+          <div class="basket-info-container">
+            <div class="basket-descr">DESCRIPTION</div>
+            <div class="basket-color">COLOR</div>
+            <div class="basket-parameters">
+              <div class="flex-item">SIZE</div>
+              <div class="flex-item">QTY</div>
+            </div>
+          </div>
+
+          <div class="basket-delete">
+            <div class="flex-item">
+              AMOUNT
+            </div>
+            <div class="flex-item">DELETE</div>
+          </div>
+        </div>
+        <div class="basket-card bt">
+          <div class="flex-container">
+            <div class="basket-product">
+              <img
+                src="../img/shoes1.jpg"
+                class="basket-product-image"
+                alt=""
+              />
+            </div>
+
+            <div class="basket-info-container">
+              <div class="basket-descr basket-card-center">
+                <p class="basket-descr-title">FLORAL PILMSOLL (1st)</p>
+                <p class="basket-descr-text">Ref. 2514/302</p>
+              </div>
+              <div class="basket-color basket-card-center">Black</div>
+              <div class="basket-parameters basket-card-center-1">
+                <div class="flex-item">39</div>
+                <div class="flex-item">
+                  <input
+                    type="number"
+                    class="input-number"
+                    min="1"
+                    max="10"
+                    value="1"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="basket-delete basket-card-center-1">
+              <div class="flex-item">€99,95</div>
+              <div class="flex-item">
+                <div id="mdiv" class="basket-card__delete--btn">
+                  <div class="mdiv">
+                    <div class="md"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="basket-card">
+          <div class="flex-container">
+            <div class="basket-product">
+              <img
+                src="../img/shoes2.jpg"
+                class="basket-product-image"
+                alt=""
+              />
+            </div>
+
+            <div class="basket-info-container">
+              <div class="basket-descr basket-card-center">
+                <p class="basket-descr-title">FLORAL PILMSOLL (2nd)</p>
+                <p class="basket-descr-text">Ref. 2514/302</p>
+              </div>
+              <div class="basket-color basket-card-center">One Color</div>
+              <div class="basket-parameters basket-card-center-1">
+                <div class="flex-item">M</div>
+                <div class="flex-item">
+                  <input
+                    type="number"
+                    class="input-number"
+                    min="1"
+                    max="10"
+                    value="1"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="basket-delete basket-card-center-1">
+              <div class="flex-item">€99,95</div>
+              <div class="flex-item">
+                <div id="mdiv" class="basket-card__delete--btn">
+                  <div class="mdiv">
+                    <div class="md"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="basket-card">
+          <div class="flex-container">
+            <div class="basket-product">
+              <img
+                src="../img/shoes3.jpg"
+                class="basket-product-image"
+                alt=""
+              />
+            </div>
+
+            <div class="basket-info-container">
+              <div class="basket-descr basket-card-center">
+                <p class="basket-descr-title">FLORAL PILMSOLL (3rd)</p>
+                <p class="basket-descr-text">Ref. 2514/302</p>
+              </div>
+              <div class="basket-color basket-card-center">One Color</div>
+              <div class="basket-parameters basket-card-center-1">
+                <div class="flex-item">S</div>
+                <div class="flex-item">
+                  <input
+                    type="number"
+                    class="input-number"
+                    min="1"
+                    max="10"
+                    value="1"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="basket-delete basket-card-center-1">
+              <div class="flex-item">€99,95</div>
+              <div class="flex-item">
+                <div id="mdiv" class="basket-card__delete--btn">
+                  <div class="mdiv">
+                    <div class="md"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="basket-sum">
+      <div class="container">
+        <div class="basket-sum-container">
+          <span class="sum-span">Subtotal</span>
+          <span class="sum-span-price">1000€</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="basket-order">
+      <div class="container">
+        <div class="basket-order-container">
+          <a href="../html/home.html">Continue Shopping</a>
+          <button class="order-button" id="order">ORDER NOW</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-m">
+        <div class="container">
+          <div class="row pt">
+            <div class="col-md-12">
+              <h2 class="col-title">SOCIAL</h2>
+              <p class="col-text">Shoper is made with love in Warsaw</p>
+              <p class="col-text">2014 © All rights reserved. El Passion</p>
+              <div class="socials">
+                <div class="social socail-t"></div>
+                <div class="social socail-f"></div>
+                <div class="social socail-i"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-d">
+        <div class="container">
+          <div class="row">
+            <div class="col-3">
+              <h4 class="col-title">COLLECTION</h4>
+
+              <p class="col-text"><a href="" class="col-link">Woman</a></p>
+              <p class="col-text"><a href="" class="col-link">Men</a></p>
+              <p class="col-text"><a href="" class="col-link">Kids</a></p>
+              <p class="col-text">
+                <a href="" class="col-link">Coming Soon</a>
+              </p>
+            </div>
+            <div class="col-3 mb">
+              <div class="footer-col-container col-border">
+                <h4 class="col-title">SITE</h4>
+
+                <p class="col-text">
+                  <a href="" class="col-link">Terms of Service</a>
+                </p>
+                <p class="col-text">
+                  <a href="" class="col-link">Privacy Police</a>
+                </p>
+                <p class="col-text">
+                  <a href="" class="col-link">Copyright Policy</a>
+                </p>
+                <p class="col-text">
+                  <a href="" class="col-link">Press Kit</a>
+                </p>
+                <p class="col-text"><a href="" class="col-link">Support</a></p>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="footer-col-container col-border">
+                <h4 class="col-title">SHOP</h4>
+
+                <p class="col-text"><a href="" class="col-link">About Us</a></p>
+                <p class="col-text">
+                  <a href="" class="col-link">Shipping Methods</a>
+                </p>
+                <p class="col-text"><a href="" class="col-link">Carrer</a></p>
+                <p class="col-text"><a href="" class="col-link">Contact</a></p>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="footer-col-container col-border">
+                <h4 class="col-title">SOCIAL</h4>
+
+                <p class="col-text">Shoper is made with love in Warsaw</p>
+                <p class="col-text">2014 © All rights reserved. El Passion</p>
+                <div class="socials">
+                  <div class="social socail-t"></div>
+                  <div class="social socail-f"></div>
+                  <div class="social socail-i"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/main.js"></script>
+    <script src="../js/basket.js"></script>
+  </body>
+</html>
